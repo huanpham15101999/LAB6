@@ -24,7 +24,7 @@ for i in $(cat ~/vietnam.list); do sudo ipset add vietnam $i; done
 ## 2. Phương án
 #### Chạy ansible 
 Link : https://git.k8s.vn/sysadmin/haproxy_svr/-/tree/master/roles/block_quocte
-- Khai báo dải IP Việt Nam nằm trong /files/vietnam.list
+- Khai báo dải IP Việt Nam trong /files/vietnam.list
 - Khai báo VIP cần chặn trong /defaults/main.yml
 - Deploy : 
 ```
